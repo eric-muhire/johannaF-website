@@ -143,3 +143,11 @@
 navbar_btn{
     display: flex;
 }
+
+
+
+header{}
+padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 100px

@@ -16,12 +16,13 @@ header{
     
 
 }
+
 .container{
     width: 80%;
     margin: 0 auto;
    
-    
-   /* background-image: url(../images/aloe-vera.jpeg);
+    /* 
+   background-image: url(../images/aloe-vera.jpeg);
     height:71vh;
     background-repeat:no-repeat;*/
 
@@ -91,7 +92,12 @@ ul li a:hover{
     max: width 1200px;
     margin:auto;
 }
+.container_two{
+    width: 100%;
+    margin: 0 auto;
 
+
+}
 /*
 .title{
     position: absolute;

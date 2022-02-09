@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Eric">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jojos Aloe vera</title>
+        <link rel="stylesheet" href="css/mystyle.css">
+    </head>
+    <header>
+        <h1>Välkommen</h1>
+        </header>
+    <body>
+        <nav class="navbar">
+            <div class="navnar_container"></div>
+            <a href="" id="navbar_logo">Jojos Aloe Vera</a>
+            <div class="navbar_toog" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+            <li class="navbar_item">
+                <a href="/" class="navbar_links">Hemma</a>
+
+            </li>
+            <li class="navbar_item">
+                <a href="products.html" class="navbar_link">Produkter</a>
+            </li>
+            <li class="navbar_item">
+                <a href="contact.html" class="navbar_link">Kontakter</a>
+            </li>
+            <li class="navbar_item">
+                <a href="about_aloe_vera.html" class="navbar_link">Om Aloe Vera</a>
+            </li>
+        </ul>
+        
+
+        <div class="container">
+            <section>
+                <h1>Om mig</h1>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply 
+                    random text. It has roots in a piece of classical
+                     Latin literature from 45 BC, making it over 2000 
+                     years old. Richard McClintock, a Latin professor 
+                     at Hampden-Sydney College in Virginia, looked up
+                      one of the more obscure Latin words, consectetur, 
+                      from a Lorem Ipsum passage, and going through the c
+                      ites of the word in classical literature, discovered
+                       the undoubtable source. Lorem Ipsum comes 
+                    from sections 1.10.32 and 1.10.33 of "de Finibus 
+                    Bonorum et Malorum"</p>
+                <p>There are many variations of passages 
+                    f Lorem Ipsum available, but the majorit
+                     have suffered alteration in some form, by
+                      injected humour, or randomised words which don'
+                      t look even slightly believable. If you are going t
+                      o use a passage of Lorem Ipsum, you need to be sure there 
+                      isn't 
+                    anything embarrassing hidden in the
+                    middle of text. All the</p>
+              
+            </section>
+            <aside>
+                <h2></h2>
+                <ol>
+                    <li>Lsit item 1</li>
+                    <li>Lsit item 1</li>
+                    <li>Lsit item 1</li>
+                    <li>Lsit item 1</li>
+                </ol>
+
+            </aside>
+
+        </div>
+        <footer>
+            <p>many variations of passages f Lorem Ipsum available, 
+                but the majorit have suffered alteration in some form,</p>
+
+        </footer>
+        
+    </body>
+</html>
+
+/*
+.navbar{
+    background: #131313;
+    height: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    top: 0;
+    z-index:999;
+}
+*/
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding:0 50px;
+}
+#navbar_logo{
+    background-color:#fff817 ;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-color: text;
+    -webkit-text-fill-color:transparent;
+    -moz-text-fill-color:transparent;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size:2rem;
+    
+}
+.fa-gem{
+    margin: right 0.5em;
+}
+.navbar_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+.navbar_item{
+    height: 80px;
+}
+.navbar_links{
+    color: rgb(83, 79, 79);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding:0 1rem;
+    height: 100%;
+}
+navbar_btn{
+    display: flex;
+}

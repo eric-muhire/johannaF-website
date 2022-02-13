@@ -50,7 +50,7 @@ header{
     transition: all 0.3s ease;
 
 }
-@media screen and (max-width:1024px){
+@media screen and (max-width:800px){
     .nav-links {
         display: flex;
         background-color: #59594A;

@@ -24,10 +24,8 @@ header{
     display: flex;
     background-color: #59594A;
     justify-content: space-around;
-bugfix-responsive-mobile
     width: 50%;  
-=======
-    width: 40%;  
+
 
 }
 .nav-links {

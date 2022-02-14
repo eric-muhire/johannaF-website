@@ -128,6 +128,19 @@ ul li.active a{
   position: relative;
   left: 10px;
   top: 200px;
+     
+}
+.page-header{
+  position: relative;
+  left: 10px;
+  top: 180px;
+}
+.produkter{
+ 
+  text-decoration: none;
+  position: relative;
+  left: 10px;
+  top: 200px;
   
-    
+
 }

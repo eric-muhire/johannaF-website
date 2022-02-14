@@ -62,7 +62,11 @@ header{
     }
 }
 
+
 @media screen and (max-width:450px){
+
+@media screen and (max-width:450px){
+
     body{
         overflow-x: hidden;
     }
@@ -75,8 +79,13 @@ header{
        display:flex;
        flex-direction:column;
        align-items: center;
-       width: 70%;
+
+       width: 50%;
+       /*transform: translateX(100%) ;*/
+
+       width: 50%;
        transform: translateX(100%) ;
+
        transition: transform 0.5s ease-in;
    
     }

@@ -1,4 +1,4 @@
-<!--<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" lang="en">
 <head>
 <meta charset="utf-8">
@@ -35,18 +35,20 @@
 <p>Email:headygirl@hotmail.com</p>
 <p>Phone:46444565</p>
 
-<form action="mailto:e.muhire24@gmail.com" method="post" enctype="text/plain">
+<form id="frm1" action="mailto:e.muhire24@gmail.com" method="post" enctype="text/plain">
 <label> Your Name:</label>
 <input type="text" name="Your Name" value=""><br>
 <label>  Your email:</label>
 <input type="email" name="Your email" value=""><br>
 <label> Your message:</label><br>
 <textarea name="message" rows="10" cols="80"></textarea><br>
-<input type="submit" name="submit">
+<input type="button" onclick="myFunction()" value="Submit">
 </form>
-<section>
-    
-</section>
+<script>
+function myFunction() {
+  document.getElementById("frm1").submit();
+}
+ </script>
 </div>
 <div class="container_two"></div>
 <footer class="footer">
@@ -58,4 +60,3 @@
 </body>
 
 </html>
--->

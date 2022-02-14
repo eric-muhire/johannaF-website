@@ -88,3 +88,129 @@
         
     </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+/*body{
+    background-color: #CDE7b0;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 18px; font-style: normal;
+    margin:0;
+
+}
+header{
+    background-color: #59594A;
+    color: rgb(15, 15, 15);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 100px
+
+
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+
+}
+.float{
+    width: 80%;
+    height:80%;
+    margin: 0 auto;
+
+    background-repeat:no-repeat;
+}
+section{
+    float: left;
+    width: 70%;
+    margin-bottom: 100px;
+
+}
+aside{
+    float:right;
+    width: 25%;
+}
+
+.footer{
+    background-color: #59594A;
+    clear: both;
+    display:flex;
+    flex-direction: column;
+    min-height: 35vh;
+    position: relative;
+    height: 150px;
+    padding: 30px 0;
+
+    text-align: center;
+}
+.header{
+
+    background-size:cover;
+    background-position: center;
+
+
+}
+ul{
+    float:right;
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:rgb(19, 17, 17);
+    padding: 5px 10px;
+    border:1px solid transparent;
+    transition: 0.6s ease;
+
+}
+ul li.active a{
+    background-color:#fff;
+    color:#000;
+    text-decoration: none;
+}
+ul li a:hover{
+    background-color:rgb(221, 208, 30);
+    color:#000;
+}
+
+.main{
+
+    max-width:1200px;
+    margin:auto;
+}
+.container_two{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.burger{
+    display: none;
+
+
+}
+.burger div{
+
+    width: 25px;
+    height: 4px;
+    position:relative;right: 80px; bottom: 30px;
+    background-color:rgb(19, 17, 17);
+    margin: 5px;
+}
+@media screen and (max-width:768px){
+    body{
+        display: none;
+    }
+
+} */

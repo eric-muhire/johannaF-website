@@ -24,7 +24,7 @@ header{
     display: flex;
     background-color: #59594A;
     justify-content: space-around;
-    width: 30%;  
+    width: 50%;  
 }
 .nav-links {
    list-style: none;
@@ -33,7 +33,7 @@ header{
 .nav-links a {
     color:rgb(33, 36, 35);
     text-decoration: none;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     font-weight: bold ;
     font-size: 15px;
 
@@ -60,7 +60,7 @@ header{
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:800px){
     body{
         overflow-x: hidden;
     }

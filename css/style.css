@@ -120,3 +120,14 @@ ul li.active a{
     color:#000;
     text-decoration: none;
 }
+.responsive{
+    width: 100%;
+    height: auto;
+}
+.container{
+  position: relative;
+  left: 10px;
+  top: 200px;
+  
+    
+}

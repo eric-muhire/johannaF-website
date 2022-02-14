@@ -3,36 +3,41 @@
     <head>
         <meta charset="utf-8">
         <meta name="author" content="Eric">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Jojos Aloe vera</title>
         <link rel="stylesheet" href="css/style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
     </head>
-    
         <body>
         <header>
-            <div class="logo">
-                <h4>Johannas Aloe Vera</h4>
-            </div>
-                <ul class="nav-links">
+            <div id="brand"><a href="/">Johannas Aloe Vera</a></div>
+            <nav>
+                <ul>
                     <li  class="active"><a href="index.html">Hemma</a></li>
-
                     <li><a href="about_me.html">Om mig</a></li>
                     <li><a href="products.html">Produkter</a></li>
                     <li><a href="contact.html">Kontakta</a></li>
                 </ul>
-                <div class="burger">
+            </nav>
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
                     <div class="line1"></div>
                     <div class="line2"></div>
                     <div class="line3"></div>
+                    <ul class="mobile-menu">
+                        <li  class="active"><a href="index.html">Hemma</a></li>
+                        <li><a href="about_me.html">Om mig</a></li>
+                        <li><a href="products.html">Produkter</a></li>
+                        <li><a href="contact.html">Kontakta</a></li> 
 
+                    </ul>
                 </div>
-
         </header>
         <script src="js/app.js"></script>
 
 
-        <!--
+
+
 
        </div>
 
@@ -77,9 +82,7 @@
 
             </div>
         </footer>
-
-    </div>-->
-
+  
 
     </body>
 </html>

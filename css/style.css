@@ -31,6 +31,7 @@
   
   #brand a {
     color: #09c372;
+    float: left;
   }
   
   ul {
@@ -39,6 +40,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
   }
   
   ul a {
@@ -48,6 +50,7 @@
   ul li {
     padding: 5px;
     margin-left: 10px;
+   
   }
   
   ul li:hover {
@@ -99,10 +102,12 @@
     left: 0;
     height: calc(100vh - 50px);
     width: 100%;
+    
   }
   
   .mobile-menu li {
     margin-bottom: 10px;
+    
   }
   
   @media only screen and (max-width: 600px) {
@@ -157,8 +162,57 @@ ul li.active a{
   
 }
 */
-#beställ {
-  margin-left:10px; 
-  padding-top: 200px;
+#bestall{
+  width: 300px;
+  margin:20vh auto 0 auto;
+  padding: 20px;
+ 
+  border-radius: 4px;
+  font-size: 12px;
 }
 
+#bestall h1{
+  color: #0f2027;
+  text-align :center;
+
+  
+  
+}
+#bestall button{
+  padding: 10px;
+  margin-left:10px; 
+  padding-top: 10px;
+  width: 100%;
+  margin: 20vh auto 0 auto;
+  color:white;
+  background-color: rgb(41,57,194);
+  border: none;
+  border-radius: 4px;
+}
+.input-control{
+  display:flex;
+  flex-direction: column;
+}
+.input-control input{
+  border:2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+
+}
+.input-control input:focus{
+    outline: 0;
+}
+.input-control.success input{
+  border-color: #09c372;
+}
+.input-control.error input{
+  border-color:  #ff3860;
+}
+.input-control .error{
+  color:#ff3860;
+  font-size: 9px;
+  height: 13px;
+}
